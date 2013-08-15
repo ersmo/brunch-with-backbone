@@ -1,0 +1,28 @@
+{
+  "name": "example-app",
+  "version": "0.1.0",
+  "main": "public/javascripts/app.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "backbone": "latest",
+    "console-polyfill": "latest",
+    "lodash": "latest",
+    "jquery": "latest",
+    "normalize-css": "latest",
+    "h5bp-helpers": "latest"
+  },
+  "overrides": {
+    "backbone": {
+      "dependencies": {
+        "lodash": "*",
+        "jquery": "*"
+      },
+      "main": "backbone.js"
+    }
+  }
+}
